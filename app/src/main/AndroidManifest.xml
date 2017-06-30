@@ -38,9 +38,6 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.facebook.app.FacebookContentProvider1017131145050793"
-            android:name="com.facebook.FacebookContentProvider"
-            android:exported="true" />
         <activity android:name=".Activity.EventActivity"/>
         <activity android:name=".Activity.TestActivity"/>
         <activity android:name=".Activity.YoutubeActivity"/>
