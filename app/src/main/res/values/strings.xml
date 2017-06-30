@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ODYSSEY\'17</string>
+    <string name="profile">PROFILE</string>
+
+    <string name="feed">FEED</string>
+
+    <string name="activity">MY EVENTS</string>
+    <string name="message">ODYSSEY is the annual cultural fest of HBTU,Kanpur .It has now evolved into one of the biggest cultural extravaganza of Northern India.
+        Being the most eagerly awaited event of the year, it bears witness to an eruption of the cultural flair
+        and creative exuberance which is the hallmark of our institute. ODYSSEY ’17 will be organized from MARCH , 2017.
+        ODYSSEY in previous years witnessed over 3000 footfalls and saw participation from over 50 top colleges from all corners of the country.
+    </string>
+
+    <string name="settings">LOGOUT</string>
+    <string name="title_logo">ODYSSEY 2017</string>
+    <string name="btn_skip_intro">Skip Intro</string>
+    <string name="facebook_app_id">1017131145050793</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

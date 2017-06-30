@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        style="@style/Toolbar"
+        android:id="@+id/about_us_toolbar"
+        >
+
+        <dev.rism.odyssey2016.CanaroTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ABOUT US"
+            android:textSize="@dimen/guillotine_item_text_size" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ivabout" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvabout"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Odyssey 2017"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/tvfestdesc"
+        android:text="@string/message"
+        android:layout_height="wrap_content" />
+</LinearLayout>

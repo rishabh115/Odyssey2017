@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5f8"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  >
+    <android.support.v7.widget.Toolbar
+        style="@style/Toolbar"
+        android:id="@+id/Event_toolbar"
+        >
+
+        <dev.rism.odyssey2016.CanaroTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="EVENTS"
+            android:textSize="@dimen/guillotine_item_text_size" />
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_below="@+id/Event_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

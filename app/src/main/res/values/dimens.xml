@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="guillotine_small_margin">24dp</dimen>
+
+    <dimen name="guillotine_medium_margin">48dp</dimen>
+
+    <dimen name="guillotine_large_margin">100dp</dimen>
+
+    <dimen name="guillotine_divider_height">40dp</dimen>
+
+    <dimen name="guillotine_item_text_size">20sp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">25dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="grid_height">160dp</dimen>
+
+    <dimen name="guillotine_actionbar_background_view_height">35dp</dimen>
+</resources>

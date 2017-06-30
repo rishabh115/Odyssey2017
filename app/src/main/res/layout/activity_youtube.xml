@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp"
+        style="@style/Toolbar">
+
+        <ImageView
+            android:id="@+id/youtube_icon"
+            style="@style/ImageView.Hamburger"
+            android:src="@drawable/youtube_icon"
+
+            />
+
+        <dev.rism.odyssey2016.CanaroTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ODYSSEY CHANNEL"
+            android:textSize="@dimen/guillotine_item_text_size" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:id="@+id/youtube_view"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+        <ProgressBar
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/progress"
+            android:visibility="invisible"
+            android:layout_gravity="center|top"
+            />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/listView"
+        android:background="@android:color/transparent"
+        ></ListView>
+</LinearLayout>
+   </LinearLayout>

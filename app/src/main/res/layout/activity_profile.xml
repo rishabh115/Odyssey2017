@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Profile_toolbar"
+        style="@style/Toolbar">
+        <dev.rism.odyssey2016.CanaroTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="PROFILE"
+            android:textSize="@dimen/guillotine_item_text_size" />
+    </android.support.v7.widget.Toolbar>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+  android:id="@+id/profile_card"
+    app:cardBackgroundColor="#00838F"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    android:layout_below="@+id/Profile_toolbar"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/profile"
+        app:civ_border_width="2dp"
+        android:layout_gravity="center_horizontal"
+        app:civ_border_color="#37474F"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/tv_profile_name"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="College"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_profile_college"
+        android:layout_below="@+id/tv_profile_name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/tv_profile_email"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv_profile_college"
+        />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect with FB to display profile Image ."
+        android:id="@+id/tv_status"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/profile_card"
+        android:layout_marginTop="20dp"
+        />
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_login"
+        android:layout_below="@+id/profile_card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+</RelativeLayout>

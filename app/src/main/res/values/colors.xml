@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cb202d</color>
+    <color name="colorPrimaryDark">#cb202d</color>
+    <color name="colorAccent">#33373d</color>
+    <color name="guillotine_background">#263238</color>
+
+    <color name="guillotine_background_dark">#33373D</color>
+
+    <color name="selected_item_color">#30d1d5</color>
+    <color name="shadow">#555555</color>
+    <color name="title">#777777</color>
+</resources>

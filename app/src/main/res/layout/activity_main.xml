@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/kbview"
+        android:src="@drawable/backsplash"/>
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:src="@drawable/placeholder"
+       android:layout_above="@+id/imageView"
+       android:layout_alignLeft="@+id/imageView"
+       android:layout_alignStart="@+id/imageView"
+       android:layout_alignRight="@+id/imageView"
+       android:layout_alignEnd="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017"
+        android:textSize="30sp"
+        android:id="@+id/l2016"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logowhite"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shimmertv"
+            android:textColor="@android:color/darker_gray"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:paddingTop="25dp"
+            android:text="Brace Yourself"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/shimmertv"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_alignStart="@+id/login_button" />
+</RelativeLayout>

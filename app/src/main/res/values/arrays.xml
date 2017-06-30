@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="fragment_category_colors">
+    <item>#292c33</item>
+    <item>#ffbb33</item>
+    <item>#34495e</item>
+    <item>#097054</item>
+    <item>#16a085</item>
+</array>
+    <array name="fragment_category_icons">
+        <item>@drawable/logow</item>
+        <item>@drawable/events</item>
+
+        <item>@drawable/youtube</item>
+        <item>@drawable/contactus</item>
+        <item>@drawable/sponsors</item>
+    </array>
+    <array name="fragment_category_names">
+        <item>About us</item>
+        <item>Events</item>
+
+        <item>Youtube</item>
+        <item>Contact us</item>
+        <item>Sponsors</item>
+    </array>
+
+</resources>
