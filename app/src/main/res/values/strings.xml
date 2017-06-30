@@ -14,7 +14,7 @@
     <string name="settings">LOGOUT</string>
     <string name="title_logo">ODYSSEY 2017</string>
     <string name="btn_skip_intro">Skip Intro</string>
-    <string name="facebook_app_id">1017131145050793</string>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
 
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
     <string name="prompt_email">Email</string>
