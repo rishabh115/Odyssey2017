@@ -5,3 +5,5 @@ This app is intended to serve as initial codebase for creating app for college f
 organisers thought an app is not required as paper-based registration is more than sufficient ,so I am open-sourcing it.
 <br>
 <img src="https://github.com/rishabh115/Odyssey2016/raw/screenshots/Screenshot_20170630-164950.png" width="200" height="400"/>
+
+# Contribute to this repo during this hacktoberfest. 
