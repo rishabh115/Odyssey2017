@@ -3,6 +3,7 @@ After seeing apps of various college fests including IITs , I felt there is a ne
 code for app developers .
 This app is intended to serve as initial codebase for creating app for college fest.I made it for my college fest but it wasn't released as the 
 organisers thought an app is not required as paper-based registration is more than sufficient ,so I am open-sourcing it.
+For screenshot of the app, visit Wiki section of the project.
 <br>
 <img src="https://github.com/rishabh115/Odyssey2016/raw/screenshots/Screenshot_20170630-164950.png" width="200" height="400"/>
 <br/>
